@@ -1,0 +1,46 @@
+body{
+	background-color: #F9BD05;
+}
+
+.img{ 
+	width:50%; height:100px; text-align: center; margin-left:24%; margin-top: 2%; 
+	 background-color: white; border-radius: 10px; 
+}
+
+.imghead{
+	margin-top: -2%;
+}
+.rainbow{
+	width:30%; height: 70px;
+
+}
+
+.contain{
+	background-color:#ffe5cc ; width:50%; height:700px; margin-left:24%; margin-top: 3%;  border-radius: 10px;
+}
+
+.heading{
+	text-align: center; font-size: 200%; padding-top: 5%;
+}
+
+.details{
+	text-align: center;
+}
+
+.space{
+	margin-bottom: 2%; border-radius: 5px; border-color: white;
+}
+
+#message{
+	width:40%; border: 2px solid blue; margin-top: 2%;
+}
+
+.btn{
+	 margin-left: 44%; margin-top: 3%;
+}
+
+
+.content{
+	text-align: center; font-size: 150%; overflow-y: scroll; padding-left: 5%; padding-right: 5%;
+	height:500px;
+}
