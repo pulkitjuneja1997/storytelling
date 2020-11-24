@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+     
+
+    <title>index</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body> 
+
+    <div class="backgrd">
+
+        <div class="img">
+            <img src="Rainbow col-low.jpg" alt="rainbow" class="rainbow">
+            <h3 class="imghead">FORM-A-STORY</h3>
+            
+        </div>
+
+        <div class="contain">
+            <div>
+                <h2 class="heading"> Complete the Form-<br>Complete the Story!</h2>
+            </div>
+            <hr>
+
+            <form class="details">
+                <label for="animal">Animal:</label>
+                <input type="text" id="animal" class="space"><br>
+
+                <label for="anotheranimal">Another Animal:</label>
+                <input type="text" id="anotheranimal" class="space"><br>
+
+                <label for="onemoreanimal">One More Animal:</label>
+                <input type="text" id="onemoreanimal" class="space"><br>
+
+                <label for="adjective">Adjective(past-tense):</label>
+                <input type="text" id="adjective" class="space"><br>
+
+                <label for="verb">Verb(ends in -ing):</label>
+                <input type="text" id="verb" class="space"><br>
+
+                <label for="number">Number:</label>
+                <input type="text" id="number" class="space "><br>
+
+                <label  for="ans" ">Yes or No:</label>
+                <input type="radio" id="ans1" name="ans" value="Yes" onclick="answer(this.value)">
+                <label for="yes">Yes</label>
+                <input type="radio" id="ans2" name ="ans" value="No" onclick="answer(this.value)" class="space">
+                <label for="no" >No</label><br>
+
+                <label for="speed" >Relative Speed (ends in -er):</label>
+                <select id="speed" class="space">
+                    <option  value="Slower">Slower</option>
+                    <option  value="Quicker">Quicker</option>
+                    <option  value="Faster">Faster</option>
+                </select><br>
+
+                <label for="quote" >Motivational Quote:</label>
+                <input type="text" id="quote" class="space"><br>
+
+                <label for="message">Meaningful Message:</label><br>
+                <textarea type="text" id="message" rows="8" ></textarea>
+            </form>
+
+
+            <a href="story.html"><button type="submit" class="btn" onclick="formstory()" >Form my story</button></a>
+            
+        </div>
+
+
+        
+    </div>
+    
+
+    
+
+  </body>
+</html>
